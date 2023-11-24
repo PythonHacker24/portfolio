@@ -1130,6 +1130,7 @@ a:hover {
 
 .contact-mf {
   margin-top: 4rem;
+  border-radius: 2rem;
 }
 
 @media (min-width: 767px) {
@@ -1244,7 +1245,7 @@ a:hover {
 
 .card-blog .card-category {
   display: inline-block;
-  color: #fff;
+  color: #00;
   padding: 0 15px 5px;
   overflow: hidden;
   background-color: #0078ff;
@@ -1252,7 +1253,7 @@ a:hover {
 }
 
 .card-blog .card-category .category {
-  color: #fff;
+  color: #000;
   display: inline-block;
   text-transform: uppercase;
   font-size: 0.7rem;
@@ -1266,7 +1267,7 @@ a:hover {
 }
 
 .card-blog .card-description {
-  color: #4e4e4e;
+  color: #fff;
 }
 
 .card-blog .post-author {
@@ -1274,7 +1275,7 @@ a:hover {
 }
 
 .card-blog .post-date {
-  color: #4e4e4e;
+  color: #fff;
   display: inline-block;
   float: right;
 }
