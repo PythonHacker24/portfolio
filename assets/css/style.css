@@ -1,6 +1,6 @@
 body {
   background-color: #000;
-  color: #4e4e4e;
+  color: #fff;
 }
 
 h1,
@@ -9,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #fff;
 }
 
 a {
@@ -133,7 +133,7 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #fff;
   font-size: 1.1rem;
 }
 
@@ -189,10 +189,11 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: #000;
   margin-bottom: 3rem;
   z-index: 2;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
 }
 
 @media (min-width: 768px) {
@@ -818,6 +819,7 @@ a:hover {
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  border-radius: 1rem;
 }
 
 .about-mf .about-img {
@@ -836,13 +838,13 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #fff;
 }
 
 .skill-mf .progress {
   background-color: #fff;
   margin: 0.5rem 0 1.2rem 0;
-  border-radius: 200;
+  border-radius: 0;
   height: 0.7rem;
 }
 
@@ -855,18 +857,19 @@ a:hover {
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: #c868ff;
+  background-color: #000;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
 }
 
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #000;
   background-color: #fff;
-  box-shadow: 0 0 0 10px #a200ff;
+  box-shadow: 0 0 0 10px #0078ff;
 }
 
 .service-box .service-ico {
@@ -887,6 +890,7 @@ a:hover {
 }
 
 .service-box .s-title {
+  color: #fff;
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
