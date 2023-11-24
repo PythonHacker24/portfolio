@@ -1,17 +1,6 @@
-/**
-* Template Name: DevFolio
-* Updated: Nov 17 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
+  background-color: #000;
+  color: #fff;
 }
 
 h1,
@@ -20,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #fff;
 }
 
 a {
@@ -100,7 +89,6 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
 }
 
 .overlay-mf {
@@ -145,7 +133,7 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #fff;
   font-size: 1.1rem;
 }
 
@@ -156,6 +144,7 @@ a:hover {
 
 .title-a {
   text-decoration: none;
+  color: #fff;
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -163,7 +152,7 @@ a:hover {
 
 .subtitle-a {
   text-decoration: none;
-  color: #4e4e4e;
+  color: #fff;
 }
 
 .line-mf {
@@ -200,10 +189,11 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: #000;
   margin-bottom: 3rem;
   z-index: 2;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
 }
 
 @media (min-width: 768px) {
@@ -759,7 +749,9 @@ a:hover {
 }
 
 .hero .hero-title {
+  font-family: 'League Spartan', sans-serif;
   color: #fff;
+  letter-spacing: 3px;
   font-weight: 600;
   font-size: 3rem;
 }
@@ -827,6 +819,7 @@ a:hover {
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  border-radius: 1rem;
 }
 
 .about-mf .about-img {
@@ -845,11 +838,11 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #fff;
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #fff;
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 0;
   height: 0.7rem;
@@ -857,30 +850,31 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #0078ff;
+  background-color: #f22dff;
 }
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: #fff;
+  background-color: #000;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
 }
 
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
-  color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 0 0 10px #0078ff;
 }
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #fff;
 }
 
 .service-box .ico-circle {
@@ -896,6 +890,7 @@ a:hover {
 }
 
 .service-box .s-title {
+  color: #fff;
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
@@ -903,7 +898,7 @@ a:hover {
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1135,6 +1130,7 @@ a:hover {
 
 .contact-mf {
   margin-top: 4rem;
+  border-radius: 2rem;
 }
 
 @media (min-width: 767px) {
@@ -1249,7 +1245,7 @@ a:hover {
 
 .card-blog .card-category {
   display: inline-block;
-  color: #fff;
+  color: #00;
   padding: 0 15px 5px;
   overflow: hidden;
   background-color: #0078ff;
@@ -1257,7 +1253,7 @@ a:hover {
 }
 
 .card-blog .card-category .category {
-  color: #fff;
+  color: #000;
   display: inline-block;
   text-transform: uppercase;
   font-size: 0.7rem;
@@ -1271,7 +1267,7 @@ a:hover {
 }
 
 .card-blog .card-description {
-  color: #4e4e4e;
+  color: #fff;
 }
 
 .card-blog .post-author {
@@ -1279,7 +1275,7 @@ a:hover {
 }
 
 .card-blog .post-date {
-  color: #4e4e4e;
+  color: #fff;
   display: inline-block;
   float: right;
 }
