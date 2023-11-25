@@ -938,7 +938,9 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: #000;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
 }
 
 .work-box:hover img {
